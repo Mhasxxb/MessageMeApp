@@ -74,3 +74,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "jwt", "~> 3.1"
 
 gem "semantic-ui-sass", "~> 2.4"
+
+gem "hir", "~> 1.1"
+
+gem "hirb", "~> 0.7.3"
