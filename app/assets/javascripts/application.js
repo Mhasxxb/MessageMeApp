@@ -20,4 +20,10 @@ $(document).on('turbolinks:load', function () {
   $('.ui.dropdown').dropdown();
   $('.ui.modal').modal();
   $('.ui.accordion').accordion();
+  $('.message .close')
+  .on('click', function() {
+    $(this)
+      .closest('.message')
+      .transition('fade');
+  });
 });
