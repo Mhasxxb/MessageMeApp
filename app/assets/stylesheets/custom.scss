@@ -2,8 +2,13 @@
 
 
 .chatbox{
-    height: 450px;
+    height: 480px;
 }
 em{
     color: rgb(75, 75, 226);
+}
+
+#message{
+    height: 15em;
+    overflow: auto;
 }
